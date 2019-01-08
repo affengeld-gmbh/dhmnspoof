@@ -1,0 +1,77 @@
+#include<stdio.h>
+int main() {
+        long int obfuscatedIP;
+        int j=0, i=1;
+        const char* convertToRawHex();
+        const char *ipv4RawHex;
+
+
+
+        printf("Enter the obfuscated IPv4 Address: ");
+        scanf("%ld",&obfuscatedIP);
+
+        ipv4RawHex=convertToRawHex(obfuscatedIP);
+
+        //ipv4RawHex[0] represents #elements in array, ipv4RawHex[1] is start of data
+        //remember to convert it to int as it is type char or ascii code i.e. equiv to integer of 54!!
+
+
+
+
+
+
+        return 0;
+}
+
+
+const char* convertToRawHex(long int quotient)
+{
+static char rawHexObfuscatedIP[100];
+
+   long int obfuscatedIP,remainder;
+   int i=1,temp, j=0, xTrack=0, oTrack;
+   char iasc[5];
+	        long decodedIPv4[4] = {'0','0','0','0'};
+        char octet1h[4][5] = { {'0','x','0','0','\0'},
+                               {'0','x','0','0','\0'},
+                               {'0','x','0','0','\0'},
+                               {'0','x','0','0','\0'}
+                                                       };			
+			
+   while(quotient!=0) {
+        temp = quotient % 16;
+        //To convert integer into character
+        if( temp < 10)
+            temp =temp + 48; else
+            temp = temp + 55;
+            rawHexObfuscatedIP[i++]= temp;
+            quotient = quotient / 16;
+    }
+
+    sprintf(iasc,"%d",i);
+    rawHexObfuscatedIP[0]=iasc[0];
+
+	for (j=rawHexObfuscatedIP[0] - '0' ;j> 0;j--){
+	  if(j % 2 == 0){
+		oTrack=2;
+	  }else{
+		oTrack=3;
+	  }
+	  octet1h[xTrack][oTrack]=rawHexObfuscatedIP[j];
+	 
+	  if(oTrack==3 && j<8)
+		xTrack++;
+	}
+	
+	    printf("\nIPv4 Address:");
+        for(i=0;i<4;i++){
+                decodedIPv4[i]=strtol(octet1h[i], NULL, 16);
+                printf("%ld", decodedIPv4[i]);
+                if(i!=3)
+                   printf(".");
+        }
+
+        printf("\n");
+	
+return rawHexObfuscatedIP;
+}

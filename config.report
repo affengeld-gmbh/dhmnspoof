@@ -1,0 +1,29 @@
+
+     ISC DHCP source configure results:
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Package:
+  Name:          DHCP
+  Version:       4.4.1
+
+C Compiler:      gcc
+
+Flags:
+  DEFS:          -DHAVE_CONFIG_H
+  CFLAGS:        -g -O2  -Wall -Werror -fno-strict-aliasing -I$(top_srcdir)/includes -I/root/iscdhcp/dhcp-4.4.1/bind/include
+
+DHCP versions:   DHCPv4 and DHCPv6
+
+Features:
+  debug:         no
+  failover:      yes
+  execute:       yes
+  binary-leases: no
+  dhcpv6:        yes
+  delayed-ack:   yes
+  dhcpv4o6:      no
+  relay-port:    no
+
+Developer:
+  ATF unittests : no
+

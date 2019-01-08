@@ -1,0 +1,573 @@
+make[2]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/isc
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/isc'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/isc'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pk11
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pk11'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pk11'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pkcs11
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pkcs11'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include/pkcs11'
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/isc
+make[5]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/isc'
+make[5]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/isc'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/pkcs11
+make[5]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/pkcs11'
+make[5]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include/pkcs11'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix/include'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c app.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dir.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c entropy.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c errno.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c errno2result.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c file.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c fsaccess.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c interfaceiter.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c keyboard.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c meminfo.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c net.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c os.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c resource.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c socket.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c stdio.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c stdtime.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c strerror.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c syslog.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../nothreads/include -I../include -I./../include -I./..     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c time.c
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/unix'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nls
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nls'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I../unix/include -I./../unix/include -I../include -I./../include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c msgcat.c
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nls'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include/isc
+make[5]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include/isc'
+make[5]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include/isc'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads/include'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../../.. -I./include -I./../unix/include -I../include -I./../include -I./..    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c thread.c
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/nothreads'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include/isc
+make[5]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include/isc'
+make[5]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include/isc'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32/include'
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/x86_32'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c aes.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c assertions.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c backtrace.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c base32.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c base64.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c bind9.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c buffer.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c bufferlist.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c commandline.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c counter.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c crc64.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c error.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c event.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c hash.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ht.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c heap.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c hex.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c hmacmd5.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c hmacsha.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c httpd.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c inet_aton.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c iterated_hash.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c lex.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c lfsr.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c lib.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c log.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c md5.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c mem.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c mutexblock.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c netaddr.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c netscope.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c pool.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ondestroy.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c parseint.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c portset.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c quota.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c radix.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c random.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ratelimiter.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c refcount.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c region.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c regex.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c result.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rwlock.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -O0 \
+		-c ./safe.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c serial.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c sha1.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c sha2.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c sockaddr.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c stats.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c string.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c strtoul.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c symtab.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c task.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c taskpool.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c tm.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c timer.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  \
+		-DVERSION=\"9.11.2-P1\" \
+		-DLIBINTERFACE=168 \
+		-DLIBREVISION=0 \
+		-DLIBAGE=2 \
+		-c ./version.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I./unix/include -I./nothreads/include -I./x86_32/include -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include    -DPK11_LIB_LOCATION=\"undefined\" -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c backtrace-emptytbl.c
+/usr/bin/ar cruv libisc.a aes.o assertions.o backtrace.o base32.o base64.o bind9.o buffer.o bufferlist.o commandline.o counter.o crc64.o error.o event.o hash.o ht.o heap.o hex.o hmacmd5.o hmacsha.o httpd.o inet_aton.o iterated_hash.o lex.o lfsr.o lib.o log.o md5.o mem.o mutexblock.o netaddr.o netscope.o pool.o ondestroy.o parseint.o portset.o quota.o radix.o random.o ratelimiter.o refcount.o region.o regex.o result.o rwlock.o safe.o serial.o sha1.o sha2.o sockaddr.o stats.o string.o strtoul.o symtab.o task.o taskpool.o tm.o timer.o version.o unix/app.o unix/dir.o unix/entropy.o unix/errno.o unix/errno2result.o unix/file.o unix/fsaccess.o unix/interfaceiter.o unix/keyboard.o unix/meminfo.o unix/net.o unix/os.o unix/resource.o unix/socket.o unix/stdio.o unix/stdtime.o unix/strerror.o unix/syslog.o unix/time.o nls/msgcat.o nothreads/thread.o backtrace-emptytbl.o
+a - aes.o
+a - assertions.o
+a - backtrace.o
+a - base32.o
+a - base64.o
+a - bind9.o
+a - buffer.o
+a - bufferlist.o
+a - commandline.o
+a - counter.o
+a - crc64.o
+a - error.o
+a - event.o
+a - hash.o
+a - ht.o
+a - heap.o
+a - hex.o
+a - hmacmd5.o
+a - hmacsha.o
+a - httpd.o
+a - inet_aton.o
+a - iterated_hash.o
+a - lex.o
+a - lfsr.o
+a - lib.o
+a - log.o
+a - md5.o
+a - mem.o
+a - mutexblock.o
+a - netaddr.o
+a - netscope.o
+a - pool.o
+a - ondestroy.o
+a - parseint.o
+a - portset.o
+a - quota.o
+a - radix.o
+a - random.o
+a - ratelimiter.o
+a - refcount.o
+a - region.o
+a - regex.o
+a - result.o
+a - rwlock.o
+a - safe.o
+a - serial.o
+a - sha1.o
+a - sha2.o
+a - sockaddr.o
+a - stats.o
+a - string.o
+a - strtoul.o
+a - symtab.o
+a - task.o
+a - taskpool.o
+a - tm.o
+a - timer.o
+a - version.o
+a - unix/app.o
+a - unix/dir.o
+a - unix/entropy.o
+a - unix/errno.o
+a - unix/errno2result.o
+a - unix/file.o
+a - unix/fsaccess.o
+a - unix/interfaceiter.o
+a - unix/keyboard.o
+a - unix/meminfo.o
+a - unix/net.o
+a - unix/os.o
+a - unix/resource.o
+a - unix/socket.o
+a - unix/stdio.o
+a - unix/stdtime.o
+a - unix/strerror.o
+a - unix/syslog.o
+a - unix/time.o
+a - nls/msgcat.o
+a - nothreads/thread.o
+a - backtrace-emptytbl.o
+ranlib libisc.a
+/usr/bin/ar cruv libisc-nosymtbl.a aes.o assertions.o backtrace.o base32.o base64.o bind9.o buffer.o bufferlist.o commandline.o counter.o crc64.o error.o event.o hash.o ht.o heap.o hex.o hmacmd5.o hmacsha.o httpd.o inet_aton.o iterated_hash.o lex.o lfsr.o lib.o log.o md5.o mem.o mutexblock.o netaddr.o netscope.o pool.o ondestroy.o parseint.o portset.o quota.o radix.o random.o ratelimiter.o refcount.o region.o regex.o result.o rwlock.o safe.o serial.o sha1.o sha2.o sockaddr.o stats.o string.o strtoul.o symtab.o task.o taskpool.o tm.o timer.o version.o unix/app.o unix/dir.o unix/entropy.o unix/errno.o unix/errno2result.o unix/file.o unix/fsaccess.o unix/interfaceiter.o unix/keyboard.o unix/meminfo.o unix/net.o unix/os.o unix/resource.o unix/socket.o unix/stdio.o unix/stdtime.o unix/strerror.o unix/syslog.o unix/time.o nls/msgcat.o nothreads/thread.o
+a - aes.o
+a - assertions.o
+a - backtrace.o
+a - base32.o
+a - base64.o
+a - bind9.o
+a - buffer.o
+a - bufferlist.o
+a - commandline.o
+a - counter.o
+a - crc64.o
+a - error.o
+a - event.o
+a - hash.o
+a - ht.o
+a - heap.o
+a - hex.o
+a - hmacmd5.o
+a - hmacsha.o
+a - httpd.o
+a - inet_aton.o
+a - iterated_hash.o
+a - lex.o
+a - lfsr.o
+a - lib.o
+a - log.o
+a - md5.o
+a - mem.o
+a - mutexblock.o
+a - netaddr.o
+a - netscope.o
+a - pool.o
+a - ondestroy.o
+a - parseint.o
+a - portset.o
+a - quota.o
+a - radix.o
+a - random.o
+a - ratelimiter.o
+a - refcount.o
+a - region.o
+a - regex.o
+a - result.o
+a - rwlock.o
+a - safe.o
+a - serial.o
+a - sha1.o
+a - sha2.o
+a - sockaddr.o
+a - stats.o
+a - string.o
+a - strtoul.o
+a - symtab.o
+a - task.o
+a - taskpool.o
+a - tm.o
+a - timer.o
+a - version.o
+a - unix/app.o
+a - unix/dir.o
+a - unix/entropy.o
+a - unix/errno.o
+a - unix/errno2result.o
+a - unix/file.o
+a - unix/fsaccess.o
+a - unix/interfaceiter.o
+a - unix/keyboard.o
+a - unix/meminfo.o
+a - unix/net.o
+a - unix/os.o
+a - unix/resource.o
+a - unix/socket.o
+a - unix/stdio.o
+a - unix/stdtime.o
+a - unix/strerror.o
+a - unix/syslog.o
+a - unix/time.o
+a - nls/msgcat.o
+a - nothreads/thread.o
+ranlib libisc-nosymtbl.a
+touch timestamp
+make[2]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc'
+make[2]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+gcc -g -O2 -fPIC -I../../lib/isc/include \
+	-D_GNU_SOURCE   -o gen ./gen.c -ldl 
+make include/dns/enumtype.h
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+./gen -s . -t > include/dns/enumtype.h || { rm -f include/dns/enumtype.h ; exit 1; }
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+make include/dns/enumclass.h
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+./gen -s . -c > include/dns/enumclass.h || { rm -f include/dns/enumclass.h ; exit 1; }
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+make include/dns/rdatastruct.h
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+./gen -s . -i \
+		-P ./rdata/rdatastructpre.h \
+		-S ./rdata/rdatastructsuf.h > include/dns/rdatastruct.h || \
+	{ rm -f include/dns/rdatastruct.h ; exit 1; }
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+make code.h
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+./gen -s . > code.h || { rm -f code.h ; exit 1; }
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dns
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dns'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dns'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dst
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dst'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include/dst'
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c acache.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c acl.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c adb.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c badcache.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c byaddr.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c cache.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c callbacks.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c catz.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c clientinfo.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c compress.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c db.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dbiterator.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dbtable.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c diff.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dispatch.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dlz.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dns64.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dnssec.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ds.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dyndb.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c forward.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ipkeylist.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c iptable.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c journal.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c keydata.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c keytable.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c lib.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c log.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c lookup.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c master.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c masterdump.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c message.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c name.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ncache.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c nsec.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c nsec3.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c nta.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c order.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c peer.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c portlist.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c private.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rbt.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rbtdb.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rbtdb64.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rcode.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rdata.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rdatalist.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rdataset.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rdatasetiter.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rdataslab.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c request.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c resolver.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c result.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rootns.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rpz.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rrl.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c rriterator.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c sdb.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c sdlz.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c soa.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ssu.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ssu_external.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c stats.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c tcpmsg.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c time.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c timer.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c tkey.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c tsec.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c tsig.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ttl.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c update.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c validator.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  \
+		-DVERSION=\"9.11.2-P1\" \
+		-DMAJOR=\"9.11\" \
+		-DMAPAPI=\"1.0\" \
+		-DLIBINTERFACE=169 \
+		-DLIBREVISION=2 \
+		-DLIBAGE=0 \
+		-c ./version.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c view.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c xfrin.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c zone.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c zonekey.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c zt.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dst_api.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dst_lib.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dst_parse.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dst_result.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c gssapi_link.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c gssapictx.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c hmac_link.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c key.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c client.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I../../lib/dns -Iinclude -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include     -DUSE_MD5    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c ecdb.c
+/usr/bin/ar cruv libdns.a acache.o acl.o adb.o badcache.o byaddr.o cache.o callbacks.o catz.o clientinfo.o compress.o db.o dbiterator.o dbtable.o diff.o dispatch.o dlz.o dns64.o dnssec.o ds.o dyndb.o forward.o ipkeylist.o iptable.o journal.o keydata.o keytable.o lib.o log.o lookup.o master.o masterdump.o message.o name.o ncache.o nsec.o nsec3.o nta.o order.o peer.o portlist.o private.o rbt.o rbtdb.o rbtdb64.o rcode.o rdata.o rdatalist.o rdataset.o rdatasetiter.o rdataslab.o request.o resolver.o result.o rootns.o rpz.o rrl.o rriterator.o sdb.o sdlz.o soa.o ssu.o ssu_external.o stats.o tcpmsg.o time.o timer.o tkey.o tsec.o tsig.o ttl.o update.o validator.o version.o view.o xfrin.o zone.o zonekey.o zt.o  dst_api.o dst_lib.o dst_parse.o dst_result.o gssapi_link.o gssapictx.o hmac_link.o key.o client.o ecdb.o 
+a - acache.o
+a - acl.o
+a - adb.o
+a - badcache.o
+a - byaddr.o
+a - cache.o
+a - callbacks.o
+a - catz.o
+a - clientinfo.o
+a - compress.o
+a - db.o
+a - dbiterator.o
+a - dbtable.o
+a - diff.o
+a - dispatch.o
+a - dlz.o
+a - dns64.o
+a - dnssec.o
+a - ds.o
+a - dyndb.o
+a - forward.o
+a - ipkeylist.o
+a - iptable.o
+a - journal.o
+a - keydata.o
+a - keytable.o
+a - lib.o
+a - log.o
+a - lookup.o
+a - master.o
+a - masterdump.o
+a - message.o
+a - name.o
+a - ncache.o
+a - nsec.o
+a - nsec3.o
+a - nta.o
+a - order.o
+a - peer.o
+a - portlist.o
+a - private.o
+a - rbt.o
+a - rbtdb.o
+a - rbtdb64.o
+a - rcode.o
+a - rdata.o
+a - rdatalist.o
+a - rdataset.o
+a - rdatasetiter.o
+a - rdataslab.o
+a - request.o
+a - resolver.o
+a - result.o
+a - rootns.o
+a - rpz.o
+a - rrl.o
+a - rriterator.o
+a - sdb.o
+a - sdlz.o
+a - soa.o
+a - ssu.o
+a - ssu_external.o
+a - stats.o
+a - tcpmsg.o
+a - time.o
+a - timer.o
+a - tkey.o
+a - tsec.o
+a - tsig.o
+a - ttl.o
+a - update.o
+a - validator.o
+a - version.o
+a - view.o
+a - xfrin.o
+a - zone.o
+a - zonekey.o
+a - zt.o
+a - dst_api.o
+a - dst_lib.o
+a - dst_parse.o
+a - dst_result.o
+a - gssapi_link.o
+a - gssapictx.o
+a - hmac_link.o
+a - key.o
+a - client.o
+a - ecdb.o
+ranlib libdns.a
+touch timestamp
+make[2]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns'
+make[2]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include/isccfg
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include/isccfg'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include/isccfg'
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c aclconf.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dnsconf.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c log.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c namedconf.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c parser.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include    -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  \
+		-DVERSION=\"9.11.2-P1\" \
+		-DLIBINTERFACE=161 \
+		-DLIBREVISION=1 \
+		-DLIBAGE=1 \
+		-c ./version.c
+/usr/bin/ar cruv libisccfg.a aclconf.o dnsconf.o log.o namedconf.o parser.o version.o
+a - aclconf.o
+a - dnsconf.o
+a - log.o
+a - namedconf.o
+a - parser.o
+a - version.o
+ranlib libisccfg.a
+touch timestamp
+make[2]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg'
+make[2]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include
+make[3]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include'
+making all in /root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include/irs
+make[4]: Entering directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include/irs'
+make[4]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include/irs'
+make[3]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs/include'
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c context.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c dnsconf.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c gai_strerror.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c getaddrinfo.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c getnameinfo.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  -c resconf.c
+gcc  -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1 -I../.. -I. -I./include -I./include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/dns/include -I../../lib/dns/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isc/include -I../../lib/isc -I../../lib/isc/include -I../../lib/isc/unix/include -I../../lib/isc/nothreads/include -I../../lib/isc/x86_32/include -I/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/isccfg/include -I../../lib/isccfg/include     -D_GNU_SOURCE -g -O2 -fPIC  -W -Wall -Wmissing-prototypes -Wcast-qual -Wwrite-strings -Wformat -Wpointer-arith -fno-strict-aliasing -fno-delete-null-pointer-checks  \
+		-DVERSION=\"9.11.2-P1\" \
+		-DLIBINTERFACE=160 \
+		-DLIBREVISION=3 \
+		-DLIBAGE=0 \
+		-c ./version.c
+/usr/bin/ar cruv libirs.a context.o dnsconf.o gai_strerror.o getaddrinfo.o getnameinfo.o resconf.o version.o
+a - context.o
+a - dnsconf.o
+a - gai_strerror.o
+a - getaddrinfo.o
+a - getnameinfo.o
+a - resconf.o
+a - version.o
+ranlib libirs.a
+touch timestamp
+make[2]: Leaving directory `/root/iscdhcp/dhcp-4.4.1/bind/bind-9.11.2-P1/lib/irs'
