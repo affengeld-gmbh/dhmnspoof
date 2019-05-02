@@ -42,6 +42,8 @@
 #include <limits.h>
 #include <string.h>
 
+#include <stdlib.h>
+#include <stdio.h>
 TIME default_lease_time = 43200; /* 12 hours... */
 TIME max_lease_time = 86400; /* 24 hours... */
 
@@ -137,7 +139,9 @@ static long decodedLongMac[6] = {'0','0','0','0','0','0'};
 static long dlm[2][6] = {{'0','0','0','0','0','0'},
                          {'0','0','0','0','0','0'}
                                                  };
-
+long ipv4Opt50[4]={0,0,0,0};
+int discoveryActive=0;
+int ftActive=0;
 /********** End Custom Variables ***********************/
 
 /*!
@@ -469,6 +473,13 @@ main(int argc, char **argv) {
                 } else if (!strcmp(argv[i], "-gd")) {
 			globalDebug=1;
 		//enable globalDebug outputs
+		} else if (!strcmp(argv[i], "-ft")) {
+			//Fill Option 50 on Renew, must be used with -st above
+			                        if (++i == argc)
+                                usage(use_noarg, argv[i-1]);
+			 ftActive=1;
+			 sscanf(argv[i], "%ld.%ld.%ld.%ld\n", &ipv4Opt50[0], &ipv4Opt50[1], &ipv4Opt50[2], &ipv4Opt50[3]);
+			 //printf("Force Option 50: %ld.%ld.%ld.%ld ; argv[%i]: %s: argc %i stActive: %i\n", ipv4Opt50[0], ipv4Opt50[1], ipv4Opt50[2], ipv4Opt50[3], i, argv[i], argc, stActive);
 		} else if (!strcmp(argv[i], "--no-pid")) {
 			no_pid_file = ISC_TRUE;
 		} else if (!strcmp(argv[i], "-cf")) {
@@ -1698,7 +1709,7 @@ void bind_lease (client)
 /****************************************************************************/
 	
 	printf("\n=====================================================\n");
-	printf("\t Telus & NWTel DHCP Spoofer\n");
+	printf("\t DHMNSpoof!v1.51 SP1 - April 2019\n");
 	printf("=====================================================\n\n");
 
 	printf("\tIPv4:\t\t%s\n", piaddr(client->active->address));
@@ -1717,12 +1728,17 @@ void bind_lease (client)
 		if(dlmLoop<6)
 		 	printf(":");
 	}
+	if (discoveryActive==1){
+		printf("\n\n\t\t-[MAIN MODE]-\n");
+	} else {
+		printf("\n\n\t\t-[QUICK MODE]-\n");
+	}
 
 	printf("\n\n\n");
 	printf("\t\t !SUCCESS! \n");
-	printf("Telus or North West Tel's DHCP Snooping Technology\n");
-	printf("has been defeated successfully! You may now hard code\n");
-	printf("your Static IP they way it is intended!\n");
+	//printf("Telus or North West Tel's DHCP Snooping Technology\n");
+	//printf("has been defeated successfully! You may now hard code\n");
+//	printf("your Static IP they way it is intended!\n");
 	printf("=====================================================\n");
 
 	exit(0);
@@ -2857,14 +2873,36 @@ void send_request (cpp)
 
 	/* If the lease T2 time has elapsed, or if we're not yet bound,
 	   broadcast the DHCPREQUEST rather than unicasting. */
-	if (client -> state == S_REQUESTING ||
-	    client -> state == S_REBOOTING ||
-	    cur_time > client -> active -> rebind)
+	if (client -> state == S_REQUESTING || client -> state == S_REBOOTING || cur_time > client -> active -> rebind){
+		//printf("DHCPREQUEST: broadcasting because were either not yet bound or timeout occured due to MAC not being spoofed properly\n");
+
+		//************** Custom spoof the mac ******************************************************
+		if(stActive==1){
+		  if(stLen==12){
+			void macHexToLong();
+				macHexToLong();
+			
+			printf("\n");
+			//client -> interface -> hw_address.hbuf[1]=8;
+			//hbuf[0] is the ETHTYPE HTYPE_ETHER usually 1 for Ethernet MAC Data starts at index 1 hence i+1
+			for(i=0;i<6;i++){
+				client -> interface -> hw_address.hbuf[i+1]=decodedLongMac[i];
+				//printf("DEBUG: void send_request(client,lease): hw_address.hbuf[%i]=decodedLongMac[%i](%ld)\n", i+1, i, decodedLongMac[i]);
+			}
+			memcpy (client -> packet.chaddr, &client -> interface -> hw_address.hbuf [1], (unsigned)(client -> interface -> hw_address.hlen - 1)); //Probably populates the CHADDR in DHCP Packet without this only L2 MAC will be changed
+		  }else{
+			printf("Usage: dhclient -st <12-Digit-MAC-Address in Hex>\n");
+			printf("No Spaces, dashes, colon etc. in between.\n");
+			printf("Example: dhclient -st aabbccddeeff\n");
+			exit(1);
+		  }
+		}
+
 		destination.sin_addr = sockaddr_broadcast.sin_addr;
-	else
-		memcpy (&destination.sin_addr.s_addr,
-			client -> destination.iabuf,
-			sizeof destination.sin_addr.s_addr);
+	} else {
+		//printf("DHCPREQUEST: Unicasting because it we found the lease and it's on the default MAC");
+		memcpy (&destination.sin_addr.s_addr, client -> destination.iabuf, sizeof destination.sin_addr.s_addr);
+	}
 	destination.sin_port = remote_port;
 	destination.sin_family = AF_INET;
 #ifdef HAVE_SA_LEN
@@ -3241,6 +3279,26 @@ make_client_options(struct client_state *client, struct client_lease *lease,
 	if (rip) {
 		client->requested_address = *rip;
 		i = DHO_DHCP_REQUESTED_ADDRESS;
+
+		if((discoveryActive==0) && (stActive==1) && (stLen==12) && (ftActive==1)){
+			//printf("DEBUG: make_client_options - Setting Option %i (dho_dhcp_requested_addr); RIP was %d.%d.%d.%d\n", i, rip->iabuf[0], rip->iabuf[1], rip->iabuf[2], rip->iabuf[3]);
+			rip->iabuf[0]=ipv4Opt50[0];
+			rip->iabuf[1]=ipv4Opt50[1];
+			rip->iabuf[2]=ipv4Opt50[2];
+			rip->iabuf[3]=ipv4Opt50[3];
+			//printf("DEBUG: make_client_options - New Option %i (dho_dhcp_requested_addr); RIP is now %d.%d.%d.%d\n", i, rip->iabuf[0], rip->iabuf[1], rip->iabuf[2], rip->iabuf[3]);
+		} else {
+			if(stActive==1){
+				//printf("DEBUG: make_client_options - Option 50 Not Replaced for option -ft because DHCP DISCOVER was activated\n");
+				//printf("DEBUG: make_client_options - Setting Option %i (dho_dhcp_requested_addr); RIP is still %d.%d.%d.%d\n", i, rip->iabuf[0], rip->iabuf[1], rip->iabuf[2], rip->iabuf[3]);
+			} else {
+				if(ftActive==1){
+					printf("DHMNSPOOF> Error! The -ft Force Option 50 Switch may only be used in combination with the -st option!\n"); 
+				}
+			}
+
+		}
+
 		if (!(option_code_hash_lookup(&option, dhcp_universe.code_hash,
 					      &i, 0, MDL) &&
 		      make_const_option_cache(&oc, NULL, rip->iabuf, rip->len,
@@ -3414,16 +3472,16 @@ void make_discover (client, lease)
 	  if(stLen==12){
 	  	void macHexToLong();
           	macHexToLong();
+		discoveryActive=1;
 		
 		printf("\n");
 	  	//client -> interface -> hw_address.hbuf[1]=8;
 	  	//hbuf[0] is the ETHTYPE HTYPE_ETHER usually 1 for Ethernet MAC Data starts at index 1 hence i+1
 	  	for(i=0;i<6;i++){
              		client -> interface -> hw_address.hbuf[i+1]=decodedLongMac[i];
-
-			if(globalDebug==1)
-				printf("DEBUG: void make_discover(client,lease): hw_address.hbuf[%i]=decodedLongMac[%i](%ld)\n", i+1, i, decodedLongMac[i]);
+			//printf("DEBUG: void make_discover(client,lease): hw_address.hbuf[%i]=decodedLongMac[%i](%ld)\n", i+1, i, decodedLongMac[i]);
 	  	}
+	//	memcpy (client -> packet.chaddr, &client -> interface -> hw_address.hbuf [1], (unsigned)(client -> interface -> hw_address.hlen - 1)); //Probably populates the CHADDR in DHCP Packet without this only L2 MAC will be changed
 	  }else{
 		printf("Usage: dhclient -st <12-Digit-MAC-Address in Hex>\n");
 		printf("No Spaces, dashes, colon etc. in between.\n");
@@ -5939,3 +5997,5 @@ void macHexToLong(){
             decodedLongMac[i]=strtol(octet1h[i], NULL, 16);
 	}
 }
+
+
